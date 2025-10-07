@@ -1,0 +1,12 @@
+from machine import Pin
+from utime import sleep
+
+led = Pin(16, Pin.OUT)
+button = Pin(18, Pin.IN, Pin.PULL_DOWN)  # bouton sur GPIO18, pull-down activé
+
+while True:
+    if button.value() == 1:  # bouton appuyé
+        led.value(1)         # allume la LED
+    else:
+        led.value(0)         # éteint la LED
+    sleep(0.05)              # anti-rebond simple
