@@ -16,13 +16,13 @@ Connexion à un réseau WiFi + recupération de l'heure et affichage dans le
 - Lecture continue de l'heure 
 - connexion au wifi
 - Rafraîchissement régulier des données  
-
+![Logigrame](ConEtHeureTestLogic.png)
 ---
 
 ### 2. `ServoTest`
 ➡️ **Description :**  
 Utilisation d'un servo moteur avec des angles de 180 à 0°.
-
+![Logigrame](ServoTestLogic.png)
 ---
 
 ## 🕰️ 3. `ServoHeure`
